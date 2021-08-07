@@ -12,6 +12,7 @@ import numpy as np #方便处理数组，矩阵等，跟matlab的处理很般配
 from scipy.optimize import curve_fit
 import configparser#用于读取配置文件
 #下面两行主要是为了画图中能显示中文字符
+
 import matplotlib as mpl 
 mpl.rcParams['font.sans-serif'] = ['SimHei']
 
